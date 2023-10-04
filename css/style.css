@@ -1,0 +1,275 @@
+/* common css start */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+ul,ol{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+/* .container{
+    width: 1750px;
+    margin: 0 auto;
+} */
+/* common css end */
+/* Header css start */
+.navbar-brand {
+    color: #2D2D2D;
+    font-family: 'Epilogue', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px; /* 150% */
+}
+
+.navbar-nav{
+    color: #2D2D2D;
+    font-family: 'Epilogue', sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 164.706% */
+}
+/* Header me css end */
+
+
+/* Banner css start */
+#banner_part{
+    margin-top: 150px;
+}
+.banner_text h4{
+    color: #2D2D2D;
+    font-family: 'Epilogue', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    padding-bottom: 60px;
+}
+.banner_text h1{
+    color: #2D2D2D;
+    font-family: 'Epilogue', sans-serif;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 90px; /* 112.5% */
+    padding-bottom: 50px;
+}
+.banner_text p{
+    color: #2D2D2D;
+    font-family: 'Epilogue', sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 158.824% */
+    padding-bottom: 155px;
+}
+
+/* Banner css end */
+
+
+/* Logo css end */
+#logo{
+    padding-bottom: 10px;
+}
+.bb{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+/* Logo css end */
+
+/* Product css end */
+#product_part{
+    padding-top: 180px;
+    padding-bottom: 205px;
+}
+.prdouct h3{
+    color: #2D2D2D;
+    text-align: center;
+    font-family: 'Epilogue', sans-serif;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 42px; /* 155.556% */
+    padding-top: 60px;
+    padding-bottom: 35px;
+}
+.prdouct p{
+    color:#2D2D2D;
+    text-align: center;
+    font-family: 'Epilogue', sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 158.824% */
+}
+.prdouct img {
+    margin-left: 85px;
+}
+/* Product css end */
+
+/* Mywork css start */
+#my_work h2{
+    padding-top: 50px;
+    color: var(--Black, #2D2D2D);
+    text-align: center;
+    font-family: 'Epilogue', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 42px; /* 131.25% */
+    padding-bottom: 65px;
+}
+#my_work h5{
+    color:#2D2D2D;
+    font-family: 'Epilogue', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px; /* 150% */
+}
+#my_work p{
+    color: var(--Black, #2D2D2D);
+    font-family: 'Epilogue', sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 158.824% */
+    padding-bottom: 120px;
+}
+/* Mywork css end */
+
+
+/* Clint css end */
+#clint_part{
+    padding-bottom: 100px;
+}
+#clint_part h3{
+    color: #2D2D2D;
+    font-family: 'Epilogue', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.clint_pic_with_star{
+    display: flex;
+    padding-left: 30px;
+    padding-right: 30px ;
+}
+.clint_card{
+    width: 315px;
+    height: 350px;
+    border: 1.5px solid #FFD285;
+}
+.clint_card p{
+    color: #2D2D2D;
+    font-family: 'Epilogue', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px; /* 150% */
+    padding-top: 35px;
+    padding-bottom: 90px;
+    padding-left: 30px;
+    padding-right: 30px ;
+}
+.clint_card h6{
+    color:#2D2D2D;
+    font-family: 'Epilogue', sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 158.824% */
+    text-align: center;
+}
+
+/* Clint css end */
+/* footer css end */
+#footer_part{
+    padding-bottom: 50px;
+}
+.all_logo{
+    display: flex;
+    justify-content: space-between;
+}
+#footer_part h2{
+    color: #2D2D2D;
+    font-family: 'Epilogue', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 42px; /* 131.25% */
+    padding-bottom: 60px;
+}
+#footer_part p{
+    color: #2D2D2D;
+    font-family: 'Epilogue', sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 158.824% */
+    padding-bottom: 70px;
+}
+
+.form{
+    border: hidden;
+    display: flex;
+    width: 530px;
+    padding: 21px 30px;
+    align-items: flex-start;
+    gap: 10px;
+    color: #2D2D2D;
+    font-family: Epilogue;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 158.824% */
+    background: #f3f3f3;
+}
+.submit{
+    color: #FFF;
+    text-align: center;
+    font-family: Epilogue;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px; /* 150% */
+    display: flex;
+    padding: 25px 82px;
+    align-items: flex-start;
+    gap: 10px;
+    background: #2D2D2D;
+}
+.massage{
+    border: hidden;
+    display: flex;
+    width: 530px;
+    padding: 21px 30px;
+    align-items: flex-start;
+    gap: 10px;color: #2D2D2D;
+    font-family: Epilogue;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 158.824% */
+    background: #f3f3f3;
+
+}
+/* footer css end */
+/* Logo css end */
+/* Logo css end */
